@@ -1,0 +1,883 @@
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300&subset=latin,greek);
+@import url(https://fonts.googleapis.com/css?family=Roboto:100);
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:100);
+/* line 11, /home/djsissom/Projects/Web/openquestion.io/src/style/_boilerplate_prefix.scss */
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+/* line 25, /home/djsissom/Projects/Web/openquestion.io/src/style/_boilerplate_prefix.scss */
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+/* line 34, /home/djsissom/Projects/Web/openquestion.io/src/style/_boilerplate_prefix.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+/* line 49, /home/djsissom/Projects/Web/openquestion.io/src/style/_boilerplate_prefix.scss */
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+/* line 62, /home/djsissom/Projects/Web/openquestion.io/src/style/_boilerplate_prefix.scss */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+/* line 72, /home/djsissom/Projects/Web/openquestion.io/src/style/_boilerplate_prefix.scss */
+textarea {
+  resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+/* line 80, /home/djsissom/Projects/Web/openquestion.io/src/style/_boilerplate_prefix.scss */
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+@font-face {
+  font-family: iwona-light;
+  src: url(../media/font/iwonalight-regular.otf);
+}
+
+@font-face {
+  font-family: iwona-light-italic;
+  src: url(../media/font/iwonalight-italic.otf);
+}
+
+@font-face {
+  font-family: iwona-bold;
+  src: url(../media/font/iwona-bold.otf);
+}
+
+/* line 1, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+html {
+  height: 100%;
+}
+
+/* line 5, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+body {
+  background-color: #332B3A;
+  background-image: url("../media/img/low-contrast-linen.png");
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.1, #FFF), color-stop(0.1, #332B3A));
+  background-image: url("../media/img/low-contrast-linen.png"), linear-gradient(to bottom, #FFF 10%, #332B3A 10%);
+  height: 100%;
+  font-family: "iwona-light", sans-serif;
+  font-size: 120%;
+}
+
+/* line 21, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+body a {
+  transition: color .4s;
+  color: #3E3EB3;
+  text-decoration: none;
+}
+
+/* line 27, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+body a:link,
+body a:active,
+body a:visited {
+  color: #3E3EB3;
+}
+
+/* line 30, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+body a:hover {
+  color: #9999FF;
+}
+
+/* line 33, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+#wrapper {
+  color: #444;
+  color: rgba(10, 3, 15, 0.75);
+  background-color: #FFF;
+  background-image: url("../media/img/paper.png");
+}
+
+/* line 40, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+h1,
+h2,
+h3 {
+  font-family: "Roboto", sans-serif;
+}
+
+/* line 46, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+#content {
+  position: relative;
+}
+
+/* line 51, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+header {
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
+/* line 63, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+header #logoimage {
+  vertical-align: middle;
+  padding: 0;
+}
+
+/* line 72, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+header #logoimage img,
+header #logoimage svg {
+  width: 75%;
+  height: 75%;
+}
+
+@media (max-width: 50em) {
+  /* line 63, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+  header #logoimage {
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    width: 100%;
+  }
+  /* line 86, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+  header #logoimage img,
+  header #logoimage svg {
+    width: 65%;
+  }
+}
+
+@media (min-width: 50em) {
+  /* line 63, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+  header #logoimage {
+    float: left;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 35%;
+  }
+  /* line 99, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+  header #logoimage img,
+  header #logoimage svg {
+    max-width: 15em;
+  }
+}
+
+/* line 109, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+header #logoimage path {
+  stroke: rgba(10, 3, 15, 0.75);
+}
+
+/* line 114, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+header #headertext {
+  vertical-align: middle;
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 1em;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (max-width: 50em) {
+  /* line 114, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+  header #headertext {
+    position: relative;
+    display: inline-block;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+}
+
+@media (min-width: 50em) {
+  /* line 114, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+  header #headertext {
+    float: left;
+    width: 65%;
+    margin-left: 35%;
+  }
+}
+
+/* line 145, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+header #logotext {
+  position: relative;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  border-style: solid;
+  border-color: rgba(10, 3, 15, 0.75);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  font-size: 0;
+}
+
+/* line 160, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+header #logotext #leftblock, header #logotext #rightblock {
+  display: inline-block;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 1em;
+  padding-right: 1em;
+  font-size: initial;
+}
+
+/* line 175, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+header #logotext #rightblock {
+  background-color: rgba(10, 3, 15, 0.75);
+  color: #FFF;
+}
+
+/* line 181, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+header #logotext p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 5em;
+}
+
+@media (max-width: 80em) {
+  /* line 181, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+  header #logotext p {
+    font-size: 4em;
+  }
+}
+
+@media (max-width: 65em) {
+  /* line 181, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+  header #logotext p {
+    font-size: 3em;
+  }
+}
+
+@media (max-width: 50em) {
+  /* line 181, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+  header #logotext p {
+    font-size: 4em;
+  }
+}
+
+@media (max-width: 45em) {
+  /* line 181, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+  header #logotext p {
+    font-size: 3em;
+  }
+}
+
+@media (max-width: 35em) {
+  /* line 181, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+  header #logotext p {
+    font-size: 2.5em;
+  }
+}
+
+@media (max-width: 30em) {
+  /* line 181, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+  header #logotext p {
+    font-size: 2.25em;
+  }
+}
+
+@media (max-width: 25em) {
+  /* line 181, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+  header #logotext p {
+    font-size: 2em;
+  }
+}
+
+/* line 209, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+header #title {
+  text-align: center;
+  font-size: 1em;
+  margin-top: 1.5em;
+}
+
+/* line 214, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+header #title h1,
+header #title h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* line 219, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+header #title h2 {
+  font-size: 1em;
+}
+
+/* line 227, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+nav {
+  border-top-style: solid;
+  border-bottom-style: solid;
+}
+
+/* line 232, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+nav ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 1%;
+  margin-right: 1%;
+  padding: 0;
+  list-style: none;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 0;
+  background-image: url("../media/img/low-contrast-linen.png");
+}
+
+/* line 245, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+nav li {
+  display: inline-block;
+  vertical-align: middle;
+  width: 20%;
+  min-width: 6em;
+  font-size: initial;
+}
+
+@media (max-width: 50em) {
+  /* line 245, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+  nav li {
+    width: 95%;
+  }
+}
+
+/* line 256, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+nav a,
+nav a:link,
+nav a:active,
+nav a:visited {
+  margin: 0;
+  padding: 0;
+  color: rgba(10, 3, 15, 0.75);
+  margin: 0;
+  padding: 0;
+  display: block;
+  font-size: 1.5em;
+  text-decoration: none;
+  height: 3em;
+  line-height: 2.75em;
+  vertical-align: middle;
+  text-align: center;
+  transition: color 0.8s;
+  background-size: 100%;
+  position: relative;
+  z-index: 100;
+}
+
+/* line 29, /home/djsissom/Projects/Web/openquestion.io/src/style/_mixins.scss */
+nav a:before,
+nav a:link:before,
+nav a:active:before,
+nav a:visited:before {
+  background: #332B3A;
+  background: linear-gradient(to right, rgba(51, 43, 58, 0), #332b3a, rgba(51, 43, 58, 0));
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  width: 100%;
+  z-index: -100;
+  transition: opacity 0.4s;
+}
+
+/* line 43, /home/djsissom/Projects/Web/openquestion.io/src/style/_mixins.scss */
+nav a:hover:before,
+nav a:link:hover:before,
+nav a:active:hover:before,
+nav a:visited:hover:before {
+  opacity: 1;
+}
+
+/* line 277, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+nav a:active, nav a:focus,
+nav a:link:active,
+nav a:link:focus,
+nav a:active:active,
+nav a:active:focus,
+nav a:visited:active,
+nav a:visited:focus {
+  outline-style: none;
+}
+
+/* line 283, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+nav a:hover {
+  color: #E9E2EE;
+}
+
+/* line 288, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+nav .selected {
+  text-decoration: underline !important;
+}
+
+/* line 293, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+footer {
+  background-image: url("../media/img/low-contrast-linen.png");
+  width: 100%;
+  min-height: 6em;
+  color: #E9E2EE;
+  background-color: #332B3A;
+  text-align: center;
+  position: relative;
+}
+
+/* line 309, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+article {
+  margin-top: 3em;
+  padding-bottom: 5em;
+}
+
+/* line 312, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+article p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+@media (min-width: 50em) {
+  /* line 309, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+  article {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* line 323, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+article section.intro {
+  margin-bottom: 4em;
+}
+
+/* line 326, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+article section.intro h1,
+article section.intro h2 {
+  text-align: center;
+}
+
+/* line 332, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+article section.feature {
+  position: relative;
+}
+
+@media (max-width: 50em) {
+  /* line 332, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+  article section.feature {
+    margin-bottom: 5em;
+  }
+}
+
+@media (min-width: 50em) {
+  /* line 332, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+  article section.feature {
+    margin-bottom: 1em;
+    padding-top: 4em;
+    padding-bottom: 4em;
+  }
+}
+
+/* line 343, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+article section.feature img {
+  width: 30%;
+  max-height: 75%;
+}
+
+@media (max-width: 50em) {
+  /* line 343, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+  article section.feature img {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 4em;
+    margin-bottom: 1em;
+  }
+}
+
+@media (min-width: 50em) {
+  /* line 343, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+  article section.feature img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+/* line 362, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+article section.feature a {
+  background-image: url("../media/img/brush_stroke.png");
+  background-size: 100% 100%;
+  text-decoration: none;
+  color: #E9E2EE;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  transition: color 0.8s;
+}
+
+/* line 374, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+article section.feature a::after {
+  position: relative;
+  content: "";
+  display: inline-block;
+  width: 0.4em;
+  height: 0.4em;
+  border-right: 0.1em solid #E9E2EE;
+  border-top: 0.1em solid #E9E2EE;
+  transform: translateY(-0.1em) rotate(45deg);
+  margin-left: 0.2em;
+}
+
+/* line 386, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+article section.feature a:hover {
+  color: #FFFFFF;
+}
+
+/* line 390, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+article section.feature a:hover::after {
+  border-color: #FFFFFF;
+}
+
+@media (min-width: 50em) {
+  /* line 397, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+  article section.feature.leftimage img {
+    margin-left: 0%;
+    margin-right: 70%;
+  }
+  /* line 402, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+  article section.feature.leftimage .text {
+    margin-left: 35%;
+  }
+}
+
+@media (min-width: 50em) {
+  /* line 410, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+  article section.feature.rightimage img {
+    margin-left: 70%;
+    margin-right: 0%;
+  }
+  /* line 415, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+  article section.feature.rightimage .text {
+    margin-right: 35%;
+  }
+}
+
+/* line 421, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+article h1,
+article h2,
+article h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* line 428, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+article p.attention {
+  color: red;
+}
+
+/* line 432, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+article p.center {
+  text-align: center;
+}
+
+@media (max-width: 50em) {
+  /* line 436, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+  article .inset {
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 2em;
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 50em) {
+  /* line 436, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+  article .inset {
+    float: right;
+    width: 30%;
+    max-width: 20em;
+    margin-left: 1.5em;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+  }
+}
+
+/* line 454, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+article .righttext {
+  text-align: right;
+}
+
+/* line 458, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+article .copyblock {
+  max-width: 100%;
+  overflow: auto;
+  text-align: center;
+}
+
+/* line 462, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+article .copyblock p {
+  display: inline-block;
+  padding: 0.5em;
+  border-style: dashed;
+}
+
+/* line 469, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+article .centeredimage {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/* line 473, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+article .centeredimage img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 480, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+.lfloat {
+  float: left;
+}
+
+/* line 484, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+.rfloat {
+  float: right;
+}
+
+/* line 488, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+#content, header, nav {
+  width: 80%;
+  min-width: 18em;
+  max-width: 100em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 496, /home/djsissom/Projects/Web/openquestion.io/src/style/_paper.scss */
+footer p {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+/*
+ * Hide visually and from screen readers
+ */
+/* line 9, /home/djsissom/Projects/Web/openquestion.io/src/style/_boilerplate_postfix.scss */
+.hidden {
+  display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+/* line 18, /home/djsissom/Projects/Web/openquestion.io/src/style/_boilerplate_postfix.scss */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+/* line 35, /home/djsissom/Projects/Web/openquestion.io/src/style/_boilerplate_postfix.scss */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+/* line 49, /home/djsissom/Projects/Web/openquestion.io/src/style/_boilerplate_postfix.scss */
+.invisible {
+  visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *	  `contenteditable` attribute is included anywhere else in the document.
+ *	  Otherwise it causes space to appear at the top and bottom of elements
+ *	  that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *	  `:before` to contain the top-margins of child elements.
+ */
+/* line 65, /home/djsissom/Projects/Web/openquestion.io/src/style/_boilerplate_postfix.scss */
+.clearfix:before, header #logotext:before, header:before,
+.clearfix:after,
+header #logotext:after,
+header:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+/* line 71, /home/djsissom/Projects/Web/openquestion.io/src/style/_boilerplate_postfix.scss */
+.clearfix:after, header #logotext:after, header:after {
+  clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+@media only screen and (min-width: 35em) {
+  /* Style adjustments for viewports that meet the condition */
+}
+
+@media print, (min-resolution: 1.25dppx), (min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+@media print {
+  /* line 98, /home/djsissom/Projects/Web/openquestion.io/src/style/_boilerplate_postfix.scss */
+  *,
+  *:before,
+  *:after,
+  *:first-letter,
+  *:first-line {
+    background: transparent !important;
+    color: #000 !important;
+    /* Black prints faster:
+		                           http://www.sanbeiji.com/archives/953 */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+  /* line 110, /home/djsissom/Projects/Web/openquestion.io/src/style/_boilerplate_postfix.scss */
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+  /* line 115, /home/djsissom/Projects/Web/openquestion.io/src/style/_boilerplate_postfix.scss */
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+  /* line 119, /home/djsissom/Projects/Web/openquestion.io/src/style/_boilerplate_postfix.scss */
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+  /*
+	 * Don't show links that are fragment identifiers,
+	 * or use the `javascript:` pseudo protocol
+	 */
+  /* line 128, /home/djsissom/Projects/Web/openquestion.io/src/style/_boilerplate_postfix.scss */
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: "";
+  }
+  /* line 133, /home/djsissom/Projects/Web/openquestion.io/src/style/_boilerplate_postfix.scss */
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+  /*
+	 * Printing Tables:
+	 * http://css-discuss.incutio.com/wiki/Printing_Tables
+	 */
+  /* line 144, /home/djsissom/Projects/Web/openquestion.io/src/style/_boilerplate_postfix.scss */
+  thead {
+    display: table-header-group;
+  }
+  /* line 148, /home/djsissom/Projects/Web/openquestion.io/src/style/_boilerplate_postfix.scss */
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+  /* line 153, /home/djsissom/Projects/Web/openquestion.io/src/style/_boilerplate_postfix.scss */
+  img {
+    max-width: 100% !important;
+  }
+  /* line 157, /home/djsissom/Projects/Web/openquestion.io/src/style/_boilerplate_postfix.scss */
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  /* line 164, /home/djsissom/Projects/Web/openquestion.io/src/style/_boilerplate_postfix.scss */
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
