@@ -1,0 +1,333 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Open Question</title>
+    <link>https://www.openquestion.net/feed.rss</link>
+    <description>a blog of existential crises</description>
+    <atom:link href="https://www.openquestion.net/feed.rss" rel="self"/>
+    <copyright>Copyright © Daniel Sissom</copyright>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <image>
+      <url>https://www.openquestion.net/apple-touch-icon.png</url>
+      <title>Open Question</title>
+      <link>https://www.openquestion.net/feed.rss</link>
+    </image>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 09 Sep 2021 22:29:41 +0000</lastBuildDate>
+    <item>
+      <title>Blog-003 - Hedge your bets</title>
+      <link>https://www.openquestion.net/blog/003.html</link>
+      <description>&lt;p&gt;I can be an . . . &lt;em&gt;opinionated&lt;/em&gt; person.  My wife often likes to remind me that,
+before we were married, more than one of my family members warned her that I can
+be overly stubborn when I think I'm right.  And who doesn't think they're right
+most of the time?  I have the luxury of often being able to spend the time to do
+some basic research to come up with the &amp;quot;best&amp;quot; answer when forming an opinion.
+(Vim is the best editor.  Fight me.)  But what if I'm wrong?&lt;/p&gt;
+</description>
+      <content:encoded><![CDATA[<h1>Hedge your bets</h1>
+<h2>( . . . if it makes sense)</h2>
+<p>I can be an . . . <em>opinionated</em> person.  My wife often likes to remind me that,
+before we were married, more than one of my family members warned her that I can
+be overly stubborn when I think I'm right.  And who doesn't think they're right
+most of the time?  I have the luxury of often being able to spend the time to do
+some basic research to come up with the &quot;best&quot; answer when forming an opinion.
+(Vim is the best editor.  Fight me.)  But what if I'm wrong?</p>
+<p>Every one of us is continually bathed in a sea of opinions.  As I discussed in a
+previous post, we choose so much of what we do based on seeking reinforcement of
+our beliefs.  It is so easy to end up only being exposed to views you already
+agree with, and thus it can often seem unfathomable that we're wrong.  Maybe,
+&quot;literally every person I know does that.&quot;  Or, &quot;every comment I've read on this
+site agrees that it's not true.&quot;  This can be such a difficult cognitive bias to
+overcome.  So much so that it becomes imperative to question even our most
+strongly held beliefs --- <em>especially</em> our most strongly held beliefs.</p>
+<p>I am by no means saying that all views should be given equal weight or validity.
+However, admitting the possibility, however small, that the opposing viewpoint
+is, in actuality, the very real truth of reality leads to an inevitable thought
+experiment:  what would that mean?  If I'm wrong, what consequences does that
+imply?  What changes?  What else would I need to rethink?  What do I do
+differently?</p>
+<p>I find it most helpful to consider a hypothetical case in which what I believe
+to be true has no consequences if true, regardless of whether or not I believe
+it's true.  Conversely, the opposing view would have severe negative
+consequences if it were true and I thought the opposite.</p>
+<p>As a fabricated example, suppose there is a gun sitting on a table that I <em>know</em>
+is unloaded.  I removed the magazine, emptied the chamber, did a visual
+inspection.  I verified that the gun is unloaded, myself, in every way possible,
+and it has not left my sight since doing so.  Then someone walks up, picks up
+the gun, points it at me, and says they will pull the trigger in 5 seconds.</p>
+<p>I now have a choice.  I can stand there, confident in my knowledge and wait for
+a hollow click, or I can simply move out of the way.  Of course, I'm going to
+move out of the way.  But why?  I am sure I am right.  All of my observations
+say I have nothing to worry about.  But being wrong has very real, very
+life-and-death consequences.  I gain nothing by standing still, even if I'm in
+no actual danger.  It's trivial to perform the necessary actions to avoid the
+consequences of being wrong.  So, despite full confidence in my belief, I will
+take action contrary to my belief.  That's the better choice, because of the
+severity of the consequences of being wrong.</p>
+<p>(Obviously, this is a contrived example.  Life is rarely so black and white.
+Everything is a continuum, and nothing is this cut and dry.  But this is a
+thought experiment to serve as a baseline.)</p>
+<p>While the previous example demonstrates the consideration of extreme
+consequences, it relies on two conditions that cannot always be assumed:
+reasonable ease of action and a non-trivial possibility that I was wrong.  As a
+further example, now suppose that someone comes up to me and tells me that
+tomorrow Earth's gravity will reverse, and we'll all be flung into space.  Of
+course, I don't believe them, but once again, that's a pretty severe
+consequence.</p>
+<p>This time, I would say it's pretty safe to ignore the crackpot.  But what
+changed this time?  The consequence is even more severe that before.  Not only
+am I risking my own life, but the lives of every human on the planet!  That's a
+pretty big ask.  Again, <strong>probability</strong> and <strong>actionability</strong>.</p>
+<p>Before with the gun, while I was confident, there was also the possibility that
+I had missed something.  Maybe I didn't do as good a job as I thought clearing
+it as safe.  Maybe the stranger performed some slight of hand and swapped it out
+before I could notice.  There's always some chance.  This time, though, the
+gravity reversing claims of our stranger would require our entire understanding
+of the physical Universe to be completely and utterly wrong.  It would require
+tomorrow to somehow behave so vastly different than the billions of years
+previous that no other observation ever made would make any sense whatsoever.
+The probability of this person being right is vanishingly small.</p>
+<p>Furthermore, even if this crazy notion is somehow actually correct and going to
+happen, what could I do about it?  Maybe I could go home and start nailing down
+my furniture so it doesn't float away?  Maybe tether myself to something solid?
+Those feel like things I could reasonably do.  But hold on . . . the floor I've
+nailed my furniture to is sitting on a concrete foundation that's just poured
+into the dirt underneath.  That's a pretty minor tensile force compared to the
+newfound gravitational repulsion.  I should probably anchor my house to some
+bedrock.  Great, now I have to get some construction crews out here on less than
+a day's notice.  But wait again . . . that bedrock isn't molecularly bonded to
+the rest of the Earth; it's pretty much just sitting there due to gravity too.
+Oh, and the air.  There won't be any of that around anymore either.  This is
+getting out of hand. . .</p>
+<p>This is obviously reduction to absurdism, but it underlies the balance that must
+happen when evaluating positions you don't agree with.  Response to other
+possibilities has to be informed and influenced by the severity of the
+consequences to being wrong, the probability of that outcome, and the
+actionability of the solution.</p>
+<p>At least for the moment, I've tried to actively avoid directly talking about
+current events, political ideologies, or hot-button issues.  We're building a
+tool box for critical thinking, regardless of stance on a particular issue, and
+I don't want someone to ignore something that might be helpful only because I
+come down on some topic differently than they do.  However, distribution and
+ingestion of misinformation seems to be at an all time high.  Please don't think
+I'm talking only about &quot;them,&quot; whoever &quot;them&quot; is to you.  I'm talking to you,
+you reading this article, regardless of your political background, your
+religious predilections, or your scientific literacy.  And I'm talking to me,
+because I have to remind myself every day that I don't---can't---know
+everything.</p>
+<p>Could you be wrong?  Is there even the slightest possibility that the millions
+or billions of humans on this planet that see things differently than you might
+have a point?  Everyone has an opinion, but that doesn't mean you have to stake
+your life on it.  Be kind to those that think differently than you.  Be open to
+being wrong sometimes.  Think about what it would mean if you are.  And, if it's
+reasonable to do so, hedge your bets.</p>
+<hr />
+<p><a href="https://www.reddit.com/r/openquestion/comments/pbjo7x/blog003_hedge_your_bets/">Comments for this post</a> are on the <a href="https://www.reddit.com/r/openquestion/">/r/openquestion</a>
+subreddit.</p>
+]]></content:encoded>
+      <author>daniel@openquestion.net (Daniel Sissom)</author>
+      <guid isPermaLink="false">https://www.openquestion.net/blog/003.html</guid>
+      <pubDate>Wed, 25 Aug 2021 12:00:00 -0500</pubDate>
+    </item>
+    <item>
+      <title>Blog-002 - Play the odds</title>
+      <link>https://www.openquestion.net/blog/002.html</link>
+      <description>&lt;p&gt;In statistical mechanics, a foundational concept is that the most likely
+macrostate is the one with the overwhelming majority of consistent microstates.
+That is a lot to unpack in one sentence if you haven't had a stat mech course,
+but the concept ends up being pretty intuitive (bear with some hand-wavy physics
+for just a moment).  A macrostate can be thought of as a measurable quantity of
+a system, like the air temperature in a room, while a microstate is a specific
+configuration of components of a system, like the specific positions and
+velocities of all the molecules of the air in a room.&lt;/p&gt;
+</description>
+      <content:encoded><![CDATA[<h1>Play the odds</h1>
+<p>In statistical mechanics, a foundational concept is that the most likely
+macrostate is the one with the overwhelming majority of consistent microstates.
+That is a lot to unpack in one sentence if you haven't had a stat mech course,
+but the concept ends up being pretty intuitive (bear with some hand-wavy physics
+for just a moment).  A macrostate can be thought of as a measurable quantity of
+a system, like the air temperature in a room, while a microstate is a specific
+configuration of components of a system, like the specific positions and
+velocities of all the molecules of the air in a room.</p>
+<p>The particles making up the air could be in a tremendously large number of
+different configurations.  Random positions and velocities of each particle
+could result in microstate where every single particle was cramped over in a
+corner, leaving the rest of the room in a vacuum.  Or they could all end up with
+velocities pointing the same direction, creating a strong breeze out of nowhere.
+However, we would never expect those outcomes, because compared to the
+vanishingly small number of configurations consistent with that &quot;weird&quot;
+macrostate, there are many, many orders of magnitude more configurations
+consistent with a &quot;normal&quot; macrostate where the particles are distributed evenly
+throughout the room with velocities consistent with measured physical laws.</p>
+<p>Imagine you were sitting in our air-filled room.  If I were to ask you about the
+exact position and speed of a specific particle, you wouldn't be able to tell
+me.  In fact, even beyond the practical limitations of answering such a
+question, there exists a more fundamental limit on how well that question can be
+answered due to quantum mechanics (we'll save that for another post . . .).
+However, if I asked what the temperature of the room was, it would be stupidly
+easy to give me an answer, despite the unknowability of the movement of the
+individual particles that make up what a temperature is really a measure of.  A
+thermometer would give a fairly precise answer, but even just using the feeling
+of your skin, you could hazard a pretty good guess.</p>
+<p>Your temperature measurement, in addition to masking the complexity of the
+physical world with a statistical measurement, also makes an assumption about
+about the whole room using a measurement from just one location.  Here, I'm not
+talking about convection currents and temperature gradients from elevation
+(which are totally a thing that can make your measurement less valid), but
+instead the assumption that you are making a measurement at a non-special time
+and place.</p>
+<p>It could be entirely possible, going back to the previous microstate concept,
+that your temperature measurement just happened to occur right before all the
+particles in the room ended up in the corner by pure chance, or that a little
+sphere around your thermometer had a normal distribution of velocities to give
+you your reading, but all the rest of the air was suddenly much colder because
+all the molecules bumped into each other in just the right way to slow them
+down.  While these circumstances are &quot;possible,&quot; no one would expect them to be
+the case, because the chance of that one special state occurring would be
+completely dwarfed by the vast number of particle configurations that lead to
+your measurement being representative of the evenly distributed properties.</p>
+<p>All of this has been a long-winded and probably overly complex illustration to
+make a simple analogy (you'll probably have to get used to that kind of thing
+here).  You can't know everything.  I would, as briefly introduced in the
+previous post, even extend this as far as saying you can't really know anything.
+But, this fundamental limitation on absolute knowledge doesn't mean that you
+can't have a pretty good guess.</p>
+<p>We can't know every underlying complexity of the world around us.  We can't
+prove that something happened.  We can't really prove anything.  But we can
+gather evidence.  We can see trends.  We can extrapolate.  We can predict.</p>
+<p>There is no mathematical proof that my senses give me accurate information, that
+I'm not just a <a href="https://en.wikipedia.org/wiki/Boltzmann_brain">Boltzmann brain</a> randomly assembled by chance from
+interstellar dust with my current memories pre-formed.  I can, however, assign
+estimated probabilities to possible realities and behave accordingly.  If I,
+say, decide (as an arbitrary example) that there's a 99.999% probability that
+reality is as it seems (and we are all biological life forms inhabiting the
+surface of a rocky terrestrial planet), and there's a 0.001% chance that I am a
+Boltzmann brain, existing only for the briefest instant as the only
+consciousness in the Universe, it's probably pretty safe to behave as though the
+former is the truth, despite the inability to unquestionably prove the validity
+of that option.</p>
+<p>I have come to a point where I can no longer accept anything as absolutely
+certain.  This is not to say that truth does not exist.  Systems exist in a
+certain state regardless of our knowledge of them or even our ability to have
+knowledge of them.  However, any claim to know something as a certainty seems
+utter nonsense.  There are too many abstraction layers between our conception
+and the reality of the physical world, each with an underlying set of
+assumptions that allow us to process and make decisions.</p>
+<p>So what then?  Are we doomed to ignorance and instinct?  If nothing can be known
+about the world, how do we do anything?  How do we build skyscrapers or put
+people in space or tie our shoes?</p>
+<p>In a word:  models.  Predictive models underlie our every conception about the
+physical world, whether or not we are explicitly aware of them.  We will discuss
+models more in depth in a future post, but the concept of models informing our
+decisions is fairly straightforward.</p>
+<p>What <em>is</em> gravity?  That's a pretty complex question.  Good luck finding someone
+to answer it.  But you don't have to understand general relativity to catch a
+ball.  You make observations of flying balls over the course of your life,
+incorporate that input into your mental model of how balls fall through the air,
+and use that model to make a prediction of where the ball will land.  Are you
+making calculations for orbits of GPS satellites or black hole dynamics?  Then
+yes, you will need some GR for that.  But again, even general relativity is just
+a predictive model that, while matching predictions to observed outcomes
+extremely precisely, only gives us an abstraction of the underlying reality, not
+the underlying reality itself.</p>
+<p>Fundamentally, general relativity and a toddler's prediction of how a ball will
+bounce are the same kind of thing.  However, the difference comes in when we
+consider the predictive power of the models, and thus the relative probability
+that each model is a good description of reality.  Evidence of predictive power
+is really the only thing we have, and can have, to go on.</p>
+<p>So, can you <em>know</em> something?  I would say, fundamentally, no.  But, the
+predictive power of experimentally verified models lets us have a pretty good
+idea.  Between options, even in the face of fundamental ignorance, we can make
+the choice with the higher <em>probability</em> of being right.  Most of the time, the
+odds are overwhelming.</p>
+<hr />
+<p><a href="https://www.reddit.com/r/openquestion/comments/oy5epg/blog002_play_the_odds/">Comments for this post</a> are on the <a href="https://www.reddit.com/r/openquestion/">/r/openquestion</a>
+subreddit.</p>
+]]></content:encoded>
+      <author>daniel@openquestion.net (Daniel Sissom)</author>
+      <guid isPermaLink="false">https://www.openquestion.net/blog/002.html</guid>
+      <pubDate>Wed, 04 Aug 2021 12:00:00 -0500</pubDate>
+    </item>
+    <item>
+      <title>Blog-001 - Who knows?</title>
+      <link>https://www.openquestion.net/blog/001.html</link>
+      <description>&lt;p&gt;How much do you know?  Consider for a moment the vast amount of information that
+you've accumulated in your lifetime:  the facts and trivia you learned through
+school and work, your day to day experiences, the memory of your internal
+thoughts and feelings over the years, what you've read, what you've seen with
+your own two eyes...&lt;/p&gt;
+</description>
+      <content:encoded><![CDATA[<h1>Who knows?</h1>
+<blockquote>
+<p>&quot;The only thing I know for certain is that I know nothing.&quot;</p>
+</blockquote>
+<p>How much do you know?  Consider for a moment the vast amount of information that
+you've accumulated in your lifetime:  the facts and trivia you learned through
+school and work, your day to day experiences, the memory of your internal
+thoughts and feelings over the years, what you've read, what you've seen with
+your own two eyes...</p>
+<p>It's easy to take for granted that we know something.  The human brain is
+unparalleled in its ability to make short-term predictions extrapolated from
+sensory input.  At its heart, this ability has to rely on the assumption that
+said sensory input is valid.</p>
+<p>Unfortunately, the same mental processes that let us catch a ball thrown through
+the air or have successful social interactions also cause us to favor our
+existing mental model of the world over new information that makes us question
+previous assumptions.  This can manifest in a number of ways, from logical
+fallacies in otherwise well-intentioned discussions to social media echo
+chambers that only reinforce already-held beliefs.</p>
+<p>We build our entire worldview on our previous assumptions.  Obviously it would
+be an impossible task to rethink everything we've ever known from first
+principles every time we had to make a decision.  It's a much more efficient and
+practical necessity to assume what we already know is pretty much true and tweak
+it as new incoming information comes in.  This works great most of the time.
+Questioning the fundamental nature of reality doesn't help you buy bananas at
+the supermarket.</p>
+<p>However, these adaptations that make it possible to cope with the day to day
+world make it nearly impossible to accept information that would fundamentally
+conflict with our preconceived worldview.  We will hold on to any shred of
+anecdote to support what we already believe in the face of a mountain of
+evidence to the contrary.  We will shut out those we once counted friends if
+they share something sufficiently misaligned our beliefs.  We will choose where
+we get our news and entertainment, where we shop, who we spend time with, even
+where we live, based on creating an environment that doesn't challenge our
+views.</p>
+<p>Once we &quot;know&quot; something, it's exceedingly difficult to take a step back and
+really think about <em>how</em> or <em>why</em> we know.  Taking this to its logical
+conclusion results in the deepest rabbit hole of all rabbit holes, but I think
+it's worth the effort.  It's turtles all the way down, but we'll dig as far as
+we can.</p>
+<hr />
+<p><a href="https://www.reddit.com/r/openquestion/comments/ow3skg/blog001_who_knows/">Comments for this post</a> are on the <a href="https://www.reddit.com/r/openquestion/">/r/openquestion</a>
+subreddit.</p>
+]]></content:encoded>
+      <author>daniel@openquestion.net (Daniel Sissom)</author>
+      <guid isPermaLink="false">https://www.openquestion.net/blog/001.html</guid>
+      <pubDate>Sun, 01 Aug 2021 12:00:00 -0500</pubDate>
+    </item>
+    <item>
+      <title>Blog-000 - Introduction</title>
+      <link>https://www.openquestion.net/blog/000.html</link>
+      <description>&lt;p&gt;Reboot.  I made this site a few years ago and never ended up writing anything
+for it past an introductory post.  I've decided to start it up again and see if
+I actually end up posting this time, so here goes...&lt;/p&gt;
+</description>
+      <content:encoded><![CDATA[<h1>Introduction</h1>
+<h2>(or, What Are We Doing Here?)</h2>
+<p>Reboot.  I made this site a few years ago and never ended up writing anything
+for it past an introductory post.  I've decided to start it up again and see if
+I actually end up posting this time, so here goes...</p>
+<p>As an aside, I'll probably re-write this page with a proper intro post after
+getting a couple of blog entries up.  Welcome back, and stay tuned.</p>
+<hr />
+<p><a href="https://www.reddit.com/r/openquestion/comments/ow3qd7/reboot_site_now_at_openquestionnet/">Comments for this post</a> are on the <a href="https://www.reddit.com/r/openquestion/">/r/openquestion</a>
+subreddit.</p>
+]]></content:encoded>
+      <author>daniel@openquestion.net (Daniel Sissom)</author>
+      <guid isPermaLink="false">https://www.openquestion.net/blog/000.html</guid>
+      <pubDate>Sun, 01 Aug 2021 12:00:00 -0500</pubDate>
+    </item>
+  </channel>
+</rss>
