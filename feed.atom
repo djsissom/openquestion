@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US">
   <id>https://www.openquestion.net</id>
   <title>Open Question</title>
-  <updated>2021-09-17T19:41:44.763374+00:00</updated>
+  <updated>2021-09-21T00:52:32.202873+00:00</updated>
   <author>
     <name>Daniel Sissom</name>
     <email>daniel@openquestion.net</email>
@@ -21,7 +21,7 @@
   <entry>
     <id>https://www.openquestion.net/theory/003.html</id>
     <title>Theory-003 - Hedge your bets</title>
-    <updated>2021-09-17T19:41:44.184342-05:00</updated>
+    <updated>2021-09-20T15:25:56.239103-05:00</updated>
     <author>
       <name>Daniel Sissom</name>
       <email>daniel@openquestion.net</email>
@@ -140,7 +140,7 @@ some basic research to come up with the &quot;best&quot; answer when forming an 
   <entry>
     <id>https://www.openquestion.net/theory/002.html</id>
     <title>Theory-002 - Play the odds</title>
-    <updated>2021-09-17T19:41:43.841003-05:00</updated>
+    <updated>2021-09-20T15:25:56.239103-05:00</updated>
     <author>
       <name>Daniel Sissom</name>
       <email>daniel@openquestion.net</email>
@@ -264,7 +264,7 @@ velocities of all the molecules of the air in a room.</p>
   <entry>
     <id>https://www.openquestion.net/theory/001.html</id>
     <title>Theory-001 - Who knows?</title>
-    <updated>2021-09-17T19:40:37.380074-05:00</updated>
+    <updated>2021-09-20T15:25:56.239103-05:00</updated>
     <author>
       <name>Daniel Sissom</name>
       <email>daniel@openquestion.net</email>
@@ -325,7 +325,7 @@ your own two eyes...</p>
   <entry>
     <id>https://www.openquestion.net/theory/000.html</id>
     <title>Theory-000 - Introduction</title>
-    <updated>2021-09-17T19:33:52.261084-05:00</updated>
+    <updated>2021-09-20T15:25:56.239103-05:00</updated>
     <author>
       <name>Daniel Sissom</name>
       <email>daniel@openquestion.net</email>
