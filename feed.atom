@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US">
   <id>https://www.openquestion.net</id>
   <title>Open Question</title>
-  <updated>2021-10-12T21:29:33.590004+00:00</updated>
+  <updated>2021-10-12T22:15:19.002424+00:00</updated>
   <author>
     <name>Daniel Sissom</name>
     <email>daniel@openquestion.net</email>
@@ -18,6 +18,39 @@
   <logo>https://www.openquestion.net/apple-touch-icon.png</logo>
   <rights>Copyright © Daniel Sissom</rights>
   <subtitle>a blog of existential crises</subtitle>
+  <entry>
+    <id>https://www.openquestion.net/tech/000.html</id>
+    <title>Tech-000 - Tech Introduction</title>
+    <updated>2021-10-12T22:15:18.403929-05:00</updated>
+    <author>
+      <name>Daniel Sissom</name>
+      <email>daniel@openquestion.net</email>
+    </author>
+    <content type="CDATA"><![CDATA[<h1>Tech Introduction</h1>
+<p>Before I start posting articles for the tech-focused side of the blog, I thought
+I'd make a quick post about what my plans are here.</p>
+<p>My background is in computational astrophysics, moving toward software
+development and devops, so I've had exposure to a wide selection of
+computational methods.  I've done high performance scientific computing for
+astronomy simulations, data reduction and analysis, machine learning, Linux
+system administration and automation, security management, web development, and
+microservice deployment.</p>
+<p>At least to start with, tech posts here will focus mostly on the software side
+of things and cover topics like Linux tricks, analysis methods, backup schemes,
+data security, or whatever else I've learned from developing and deploying
+software that might be useful to somebody.  This probably won't end up being an
+academic dive into esoteric computational methods, but instead a more practical
+set of tutorials for making the most of your digital resources.</p>
+<p>So, check back soon, and let me know in the comments if there are any topics
+that you'd like to see.</p>
+<hr />
+]]></content>
+    <link href="https://www.openquestion.net/tech/000.html" rel="alternate"/>
+    <summary type="CDATA"><![CDATA[<p>Before I start posting articles for the tech-focused side of the blog, I thought
+I'd make a quick post about what my plans are here.</p>
+]]></summary>
+    <published>2021-10-12T22:15:18.403929-05:00</published>
+  </entry>
   <entry>
     <id>https://www.openquestion.net/theorics/003.html</id>
     <title>Theorics-003 - Hedge your bets</title>
