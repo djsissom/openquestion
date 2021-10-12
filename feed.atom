@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US">
   <id>https://www.openquestion.net</id>
   <title>Open Question</title>
-  <updated>2021-09-21T00:52:32.202873+00:00</updated>
+  <updated>2021-10-12T20:42:12.777899+00:00</updated>
   <author>
     <name>Daniel Sissom</name>
     <email>daniel@openquestion.net</email>
@@ -19,9 +19,9 @@
   <rights>Copyright © Daniel Sissom</rights>
   <subtitle>a blog of existential crises</subtitle>
   <entry>
-    <id>https://www.openquestion.net/theory/003.html</id>
-    <title>Theory-003 - Hedge your bets</title>
-    <updated>2021-09-20T15:25:56.239103-05:00</updated>
+    <id>https://www.openquestion.net/theorics/003.html</id>
+    <title>Theorics-003 - Hedge your bets</title>
+    <updated>2021-10-12T20:40:51.375822-05:00</updated>
     <author>
       <name>Daniel Sissom</name>
       <email>daniel@openquestion.net</email>
@@ -127,7 +127,7 @@ reasonable to do so, hedge your bets.</p>
 <p><a href="https://www.reddit.com/r/openquestion/comments/pq6x49/theory003_hedge_your_bets/">Comments for this post</a> are on the <a href="https://www.reddit.com/r/openquestion/">/r/openquestion</a>
 subreddit.</p>
 ]]></content>
-    <link href="https://www.openquestion.net/theory/003.html" rel="alternate"/>
+    <link href="https://www.openquestion.net/theorics/003.html" rel="alternate"/>
     <summary type="CDATA"><![CDATA[<p>I can be an . . . <em>opinionated</em> person.  My wife often likes to remind me that,
 before we were married, more than one of my family members warned her that I can
 be overly stubborn when I think I'm right.  And who doesn't think they're right
@@ -138,9 +138,9 @@ some basic research to come up with the &quot;best&quot; answer when forming an 
     <published>2021-08-25T12:00:00-05:00</published>
   </entry>
   <entry>
-    <id>https://www.openquestion.net/theory/002.html</id>
-    <title>Theory-002 - Play the odds</title>
-    <updated>2021-09-20T15:25:56.239103-05:00</updated>
+    <id>https://www.openquestion.net/theorics/002.html</id>
+    <title>Theorics-002 - Play the odds</title>
+    <updated>2021-10-12T20:40:31.468849-05:00</updated>
     <author>
       <name>Daniel Sissom</name>
       <email>daniel@openquestion.net</email>
@@ -249,7 +249,7 @@ odds are overwhelming.</p>
 <p><a href="https://www.reddit.com/r/openquestion/comments/pq6vek/theory002_play_the_odds/">Comments for this post</a> are on the <a href="https://www.reddit.com/r/openquestion/">/r/openquestion</a>
 subreddit.</p>
 ]]></content>
-    <link href="https://www.openquestion.net/theory/002.html" rel="alternate"/>
+    <link href="https://www.openquestion.net/theorics/002.html" rel="alternate"/>
     <summary type="CDATA"><![CDATA[<p>In statistical mechanics, a foundational concept is that the most likely
 macrostate is the one with the overwhelming majority of consistent microstates.
 That is a lot to unpack in one sentence if you haven't had a stat mech course,
@@ -262,9 +262,9 @@ velocities of all the molecules of the air in a room.</p>
     <published>2021-08-04T12:00:00-05:00</published>
   </entry>
   <entry>
-    <id>https://www.openquestion.net/theory/001.html</id>
-    <title>Theory-001 - Who knows?</title>
-    <updated>2021-09-20T15:25:56.239103-05:00</updated>
+    <id>https://www.openquestion.net/theorics/001.html</id>
+    <title>Theorics-001 - Who knows?</title>
+    <updated>2021-10-12T20:40:13.358570-05:00</updated>
     <author>
       <name>Daniel Sissom</name>
       <email>daniel@openquestion.net</email>
@@ -313,7 +313,7 @@ we can.</p>
 <p><a href="https://www.reddit.com/r/openquestion/comments/pq6tm1/theory001_who_knows/">Comments for this post</a> are on the <a href="https://www.reddit.com/r/openquestion/">/r/openquestion</a>
 subreddit.</p>
 ]]></content>
-    <link href="https://www.openquestion.net/theory/001.html" rel="alternate"/>
+    <link href="https://www.openquestion.net/theorics/001.html" rel="alternate"/>
     <summary type="CDATA"><![CDATA[<p>How much do you know?  Consider for a moment the vast amount of information that
 you've accumulated in your lifetime:  the facts and trivia you learned through
 school and work, your day to day experiences, the memory of your internal
@@ -323,9 +323,9 @@ your own two eyes...</p>
     <published>2021-08-01T12:00:00-05:00</published>
   </entry>
   <entry>
-    <id>https://www.openquestion.net/theory/000.html</id>
-    <title>Theory-000 - Introduction</title>
-    <updated>2021-09-20T15:25:56.239103-05:00</updated>
+    <id>https://www.openquestion.net/theorics/000.html</id>
+    <title>Theorics-000 - Introduction</title>
+    <updated>2021-10-12T20:39:50.091544-05:00</updated>
     <author>
       <name>Daniel Sissom</name>
       <email>daniel@openquestion.net</email>
@@ -341,7 +341,7 @@ getting a couple of blog entries up.  Welcome back, and stay tuned.</p>
 <p><a href="https://www.reddit.com/r/openquestion/comments/pq6s31/theory000_introduction/">Comments for this post</a> are on the <a href="https://www.reddit.com/r/openquestion/">/r/openquestion</a>
 subreddit.</p>
 ]]></content>
-    <link href="https://www.openquestion.net/theory/000.html" rel="alternate"/>
+    <link href="https://www.openquestion.net/theorics/000.html" rel="alternate"/>
     <summary type="CDATA"><![CDATA[<p>Reboot.  I made this site a few years ago and never ended up writing anything
 for it past an introductory post.  I've decided to start it up again and see if
 I actually end up posting this time, so here goes...</p>
