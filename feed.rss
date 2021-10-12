@@ -14,7 +14,36 @@
       <link>https://www.openquestion.net/feed.rss</link>
     </image>
     <language>en-US</language>
-    <lastBuildDate>Tue, 12 Oct 2021 21:29:33 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 12 Oct 2021 22:15:18 +0000</lastBuildDate>
+    <item>
+      <title>Tech-000 - Tech Introduction</title>
+      <link>https://www.openquestion.net/tech/000.html</link>
+      <description>&lt;p&gt;Before I start posting articles for the tech-focused side of the blog, I thought
+I'd make a quick post about what my plans are here.&lt;/p&gt;
+</description>
+      <content:encoded><![CDATA[<h1>Tech Introduction</h1>
+<p>Before I start posting articles for the tech-focused side of the blog, I thought
+I'd make a quick post about what my plans are here.</p>
+<p>My background is in computational astrophysics, moving toward software
+development and devops, so I've had exposure to a wide selection of
+computational methods.  I've done high performance scientific computing for
+astronomy simulations, data reduction and analysis, machine learning, Linux
+system administration and automation, security management, web development, and
+microservice deployment.</p>
+<p>At least to start with, tech posts here will focus mostly on the software side
+of things and cover topics like Linux tricks, analysis methods, backup schemes,
+data security, or whatever else I've learned from developing and deploying
+software that might be useful to somebody.  This probably won't end up being an
+academic dive into esoteric computational methods, but instead a more practical
+set of tutorials for making the most of your digital resources.</p>
+<p>So, check back soon, and let me know in the comments if there are any topics
+that you'd like to see.</p>
+<hr />
+]]></content:encoded>
+      <author>daniel@openquestion.net (Daniel Sissom)</author>
+      <guid isPermaLink="false">https://www.openquestion.net/tech/000.html</guid>
+      <pubDate>Tue, 12 Oct 2021 22:15:18 -0500</pubDate>
+    </item>
     <item>
       <title>Theorics-003 - Hedge your bets</title>
       <link>https://www.openquestion.net/theorics/003.html</link>
