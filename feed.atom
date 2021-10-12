@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US">
   <id>https://www.openquestion.net</id>
   <title>Open Question</title>
-  <updated>2021-10-12T22:15:19.002424+00:00</updated>
+  <updated>2021-10-12T22:24:19.525433+00:00</updated>
   <author>
     <name>Daniel Sissom</name>
     <email>daniel@openquestion.net</email>
@@ -21,7 +21,7 @@
   <entry>
     <id>https://www.openquestion.net/tech/000.html</id>
     <title>Tech-000 - Tech Introduction</title>
-    <updated>2021-10-12T22:15:18.403929-05:00</updated>
+    <updated>2021-10-12T22:24:18.932246-05:00</updated>
     <author>
       <name>Daniel Sissom</name>
       <email>daniel@openquestion.net</email>
@@ -44,17 +44,19 @@ set of tutorials for making the most of your digital resources.</p>
 <p>So, check back soon, and let me know in the comments if there are any topics
 that you'd like to see.</p>
 <hr />
+<p><a href="https://www.reddit.com/r/openquestion/comments/q6x76p/tech000_tech_introduction/">Comments for this post</a> are on the <a href="https://www.reddit.com/r/openquestion/">/r/openquestion</a>
+subreddit.</p>
 ]]></content>
     <link href="https://www.openquestion.net/tech/000.html" rel="alternate"/>
     <summary type="CDATA"><![CDATA[<p>Before I start posting articles for the tech-focused side of the blog, I thought
 I'd make a quick post about what my plans are here.</p>
 ]]></summary>
-    <published>2021-10-12T22:15:18.403929-05:00</published>
+    <published>2021-10-12T22:24:18.932246-05:00</published>
   </entry>
   <entry>
     <id>https://www.openquestion.net/theorics/003.html</id>
     <title>Theorics-003 - Hedge your bets</title>
-    <updated>2021-10-12T21:29:10.545904-05:00</updated>
+    <updated>2021-10-12T22:19:40.787951-05:00</updated>
     <author>
       <name>Daniel Sissom</name>
       <email>daniel@openquestion.net</email>
@@ -173,7 +175,7 @@ some basic research to come up with the &quot;best&quot; answer when forming an 
   <entry>
     <id>https://www.openquestion.net/theorics/002.html</id>
     <title>Theorics-002 - Play the odds</title>
-    <updated>2021-10-12T21:29:10.545904-05:00</updated>
+    <updated>2021-10-12T22:19:40.787951-05:00</updated>
     <author>
       <name>Daniel Sissom</name>
       <email>daniel@openquestion.net</email>
@@ -297,7 +299,7 @@ velocities of all the molecules of the air in a room.</p>
   <entry>
     <id>https://www.openquestion.net/theorics/001.html</id>
     <title>Theorics-001 - Who knows?</title>
-    <updated>2021-10-12T21:29:10.545904-05:00</updated>
+    <updated>2021-10-12T22:19:40.787951-05:00</updated>
     <author>
       <name>Daniel Sissom</name>
       <email>daniel@openquestion.net</email>
@@ -358,7 +360,7 @@ your own two eyes...</p>
   <entry>
     <id>https://www.openquestion.net/theorics/000.html</id>
     <title>Theorics-000 - Introduction</title>
-    <updated>2021-10-12T21:29:10.545904-05:00</updated>
+    <updated>2021-10-12T22:19:40.787951-05:00</updated>
     <author>
       <name>Daniel Sissom</name>
       <email>daniel@openquestion.net</email>
