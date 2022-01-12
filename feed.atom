@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US">
   <id>https://www.openquestion.net</id>
   <title>Open Question</title>
-  <updated>2021-10-12T22:24:19.525433+00:00</updated>
+  <updated>2022-01-12T22:22:40.732025+00:00</updated>
   <author>
     <name>Daniel Sissom</name>
     <email>daniel@openquestion.net</email>
@@ -19,9 +19,143 @@
   <rights>Copyright © Daniel Sissom</rights>
   <subtitle>a blog of existential crises</subtitle>
   <entry>
+    <id>https://www.openquestion.net/tech/001.html</id>
+    <title>Tech-001 - Roll your own static blog engine (Part 1)</title>
+    <updated>2022-01-12T22:22:40.159709-06:00</updated>
+    <author>
+      <name>Daniel Sissom</name>
+      <email>daniel@openquestion.net</email>
+    </author>
+    <content type="CDATA"><![CDATA[<h1>Roll your own static blog engine (Part 1)</h1>
+<h2>Project layout and hosting with git</h2>
+<hr />
+<p>As the first tech post here, I figured a natural choice would be a walk through
+on how I make and host the site itself.  There's a bit much to try to cram into
+one post, so this will be the start of a short series on my development and
+publishing process.</p>
+<p>I create and host this blog completely for free using a number of open source
+tools for site generation and GitHub pages for static hosting.  Creating a site
+this way works really well for any static site---that is, one that doesn't rely
+on server-side scripting or databases (though, I do plan on writing about how to
+add in those capabilities in a future post)---and should scale well to even
+large traffic volumes.</p>
+<hr />
+<h3>Project layout and git setup</h3>
+<p>For a web project that's going to be published to a static site host, we'll need
+a directory for the source files and a directory for the generated html, css,
+and other content that is uploaded to the server.  I don't suppose there are any
+canonical locations for these, but I've found putting the source directory
+inside the output directory works pretty well.  I'm sure the inverse would be
+just fine too.  Including directories for css and javascript, a boilerplate
+project layout for one of my sites might look something like this:</p>
+<pre><code>./sitename.com/
+	- index.html
+	- script/
+	- src/
+		- index.pug
+		- script/
+		- style/
+	- style/
+</code></pre>
+<p>The simplest way I've found for handling version control here is just to create
+two separate git repositories.  The first one in <code>sitename.com/</code> will be for
+pushing content to the server.  The second in <code>src/</code> will be for actually
+versioning the work you do on the site.  It is arguable that you should just use
+one repository since the content of <code>sitename.com/</code> is directly related to
+<code>src/</code>, but after hacking around on that for too long, I found it way simpler
+just to use two repos.</p>
+<p>So, to get started:</p>
+<pre><code>$ cd /directory/where/you/put/web/projects/
+$ mkdir sitename.com
+$ cd sitename.com
+$ git init
+</code></pre>
+<p>This creates your site directory and initializes a git repo inside.  Next, we'll
+create the <code>src/</code> directory and ignore it:</p>
+<pre><code>$ mkdir src
+$ echo &quot;src&quot; &gt; .gitignore
+$ git add .
+$ git commit
+</code></pre>
+<p>This keeps your pre-compiled source from ending up hosted to the public and
+allows us to create a second git repo in the <code>src/</code> directory:</p>
+<pre><code>$ cd src
+$ git init
+$ touch .gitignore
+$ git add .
+$ git commit
+</code></pre>
+<p>We now have two independent git repositories to hold both the source code/markup
+and the resulting generated content for the site.  If you don't otherwise use
+git, you may need to set up some configuration variables like your name and
+email address:</p>
+<pre><code>$ git config --global user.name &quot;Your Name&quot;
+$ git config --global user.email &quot;email@host.com&quot;
+</code></pre>
+<p>I also set the <code>user.signingkey</code> and <code>commit.gpgsign</code> options so I can use my
+Yubikey to sign commits with GPG, but that set up may have to be it's own post
+someday . . .</p>
+<hr />
+<h3>Hosting</h3>
+<p>Now that we have a git repository set up, we need a place to push it to.  I use
+GitHub Pages for hosting this site, as it's free for static sites and easy to
+publish to with a simple <code>git push</code> command.  There are plenty of other options,
+from dedicated services to running your own servers, but I find GitHub offers a
+nice balance of practicality with free-ness and keeps me from having to worry
+about uptime.</p>
+<p>Create a new repository from your GitHub account and give it the name of your
+site.  Then set the GitHub repo as upstream to the build repository created
+earlier:</p>
+<pre><code>$ git remote add origin git@github.com:&lt;username&gt;/&lt;reponame&gt;.git
+$ git push -u origin master
+</code></pre>
+<p>Make sure to do this from the <code>sitename.com</code> repository, not the <code>src</code>
+repository, as we want to keep that private.  Now we can commit a couple of
+files and push up to our new host.  Here, the CNAME file will help with pointing
+a domain name at the site in the next step.</p>
+<pre><code>$ echo Hello. &gt; index.html
+$ echo www.sitename.com &gt; CNAME
+$ git add .
+$ git commit
+$ git push
+</code></pre>
+<p>On the GitHub repo's settings page, go to the Pages tab to configure how your
+site will be served.  Choose the branch you want to serve from (probably master)
+and set the custom domain field to your domain if it's not set already.</p>
+<p>Enable the Enforce HTTPS option if you're serving directly from GitHub, or you
+can leave it blank if proxying through something like Cloudflare.  This is a
+newer option for GitHub Pages.  When I first set up the site, this wasn't
+available, and the only way to get HTTPS on a custom domain was to proxy traffic
+through a CDN like Cloudflare to allow/force secure connections.</p>
+<p>At the registrar for your domain name (or wherever the DNS server for your site
+is), add two CNAME records to point to the GitHub repo.  First, add a CNAME
+record to redirect <code>sitename.com</code> to <code>www.sitename.com</code>.  Then add a second
+CNAME to point <code>www</code> to <code>&lt;yourusername&gt;.github.io</code>.  GitHub can then use the
+CNAME file we committed earlier to direct requests to the appropriate page.  Now
+(at least once the DNS settings have had time to propagate), you should be able
+to type your domain name in a browser and see the Hello text from the index.html
+page in the repository.</p>
+<p>From this point, it's all about creating your site however you want.  Whenever
+you want to publish your updates, all you have to do is</p>
+<pre><code>$ git add .
+$ git commit
+$ git push
+</code></pre>
+<p>In future parts of this series, we'll get more into the site creation itself,
+including HTML templating with PugJS, build automation with Make, and RSS feed
+generation with Python.</p>
+<hr />
+<p>Comments for this post will be linked shortly.</p>
+]]></content>
+    <link href="https://www.openquestion.net/tech/001.html" rel="alternate"/>
+    <summary type="CDATA"><![CDATA[<hr />
+]]></summary>
+    <published>2022-01-12T22:22:40.159709-06:00</published>
+  </entry>
+  <entry>
     <id>https://www.openquestion.net/tech/000.html</id>
     <title>Tech-000 - Tech Introduction</title>
-    <updated>2021-10-12T22:24:18.932246-05:00</updated>
+    <updated>2022-01-12T19:51:09.110945-06:00</updated>
     <author>
       <name>Daniel Sissom</name>
       <email>daniel@openquestion.net</email>
@@ -51,7 +185,7 @@ subreddit.</p>
     <summary type="CDATA"><![CDATA[<p>Before I start posting articles for the tech-focused side of the blog, I thought
 I'd make a quick post about what my plans are here.</p>
 ]]></summary>
-    <published>2021-10-12T22:24:18.932246-05:00</published>
+    <published>2021-10-12T12:00:00-05:00</published>
   </entry>
   <entry>
     <id>https://www.openquestion.net/theorics/003.html</id>
