@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US">
   <id>https://www.openquestion.net</id>
   <title>Open Question</title>
-  <updated>2022-01-12T22:44:10.140405+00:00</updated>
+  <updated>2022-01-12T22:51:29.016240+00:00</updated>
   <author>
     <name>Daniel Sissom</name>
     <email>daniel@openquestion.net</email>
@@ -21,7 +21,7 @@
   <entry>
     <id>https://www.openquestion.net/tech/001.html</id>
     <title>Tech-001 - Roll your own static blog engine (Part 1)</title>
-    <updated>2022-01-12T22:44:09.563534-06:00</updated>
+    <updated>2022-01-12T22:51:28.439453-06:00</updated>
     <author>
       <name>Daniel Sissom</name>
       <email>daniel@openquestion.net</email>
@@ -151,7 +151,7 @@ subreddit.</p>
     <link href="https://www.openquestion.net/tech/001.html" rel="alternate"/>
     <summary type="CDATA"><![CDATA[<hr />
 ]]></summary>
-    <published>2022-01-12T22:44:09.563534-06:00</published>
+    <published>2022-01-12T22:51:28.439453-06:00</published>
   </entry>
   <entry>
     <id>https://www.openquestion.net/tech/000.html</id>

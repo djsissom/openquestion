@@ -14,7 +14,7 @@
       <link>https://www.openquestion.net/feed.rss</link>
     </image>
     <language>en-US</language>
-    <lastBuildDate>Wed, 12 Jan 2022 22:44:09 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Jan 2022 22:51:28 +0000</lastBuildDate>
     <item>
       <title>Tech-001 - Roll your own static blog engine (Part 1)</title>
       <link>https://www.openquestion.net/tech/001.html</link>
@@ -144,7 +144,7 @@ subreddit.</p>
 ]]></content:encoded>
       <author>daniel@openquestion.net (Daniel Sissom)</author>
       <guid isPermaLink="false">https://www.openquestion.net/tech/001.html</guid>
-      <pubDate>Wed, 12 Jan 2022 22:44:09 -0600</pubDate>
+      <pubDate>Wed, 12 Jan 2022 22:51:28 -0600</pubDate>
     </item>
     <item>
       <title>Tech-000 - Tech Introduction</title>
